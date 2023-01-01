@@ -1,0 +1,100 @@
+.fourth_screen {
+    --angle: 175deg;
+    --color1: rgba(73, 209, 236, 0.39);
+    --color2: rgba(3, 171, 243, 0.30);
+    --color3: rgba(104, 229, 229, 0.53);
+    --start1: 32%;
+    --start2: 37%;
+    --start3: 42%;
+    --width: 14%;
+    overflow: hidden;
+    height: 900px;
+
+    background: linear-gradient(var(--angle), rgba(255,255,255,0) var(--start1), var(--color1) var(--start1), var(--color1) calc(var(--start1) + var( --width)), rgba(255,255,255,0) calc(var(--start1) + var( --width))),
+    linear-gradient(var(--angle), rgba(255,255,255,0) var(--start2), var(--color2) var(--start2), var(--color2) calc(var(--start2) + var( --width)), rgba(255,255,255,0) calc(var(--start2) + var( --width))),
+    linear-gradient(var(--angle), rgba(255,255,255,0) var(--start3), var(--color3) var(--start3), var(--color3) calc(var(--start3) + var( --width)), rgba(255,255,255,0) calc(var(--start3) + var( --width)));
+}
+
+
+.shop {
+    display: flex;
+    justify-content:space-between ;
+    width: 75%;
+    margin: 0% auto;
+}
+
+.top-sale {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C7885;
+    margin: 70px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.item_header {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(28, 120, 133, 1);
+    margin: 40px;
+}
+
+.card_btn{
+    align-items: center;
+    justify-content: center;
+    width: 228px;
+    height: 55px;
+    border: none;
+    background: #37B0B8;
+    border-radius: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 43px;
+}
+
+.item_card {
+    background: #FFFFFF;
+    border-radius: 32px;
+    filter: drop-shadow(1px 2px 30px rgba(0, 0, 0, 0.1));
+    align-items: center;
+}
+
+.card_img {
+    top: 11px;
+    width: 188px;
+    height: 177px;
+    margin: 11px auto;
+    object-fit: cover;
+}
+
+.in_stock {
+    color: rgba(13, 166, 56, 1);
+    font-size: 11px;
+    line-height: 1.5;
+    width: auto;
+    margin: 3px;
+}
+
+.descriptions_card {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    width: 190px;
+    margin: 3px 19px 19px 19px;
+}

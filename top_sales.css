@@ -1,0 +1,85 @@
+.top_sales {
+  background: url(pictures/top_sales_bg.svg) top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.top_sales_header {
+    text-align: center;
+    font-size: 36px;
+    line-height: 49px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #474747;
+    margin: 70px 0 70px 0;
+}
+
+.top_sales_container {
+    display: flex;
+    width: 90%;
+    column-gap: 3%;
+    justify-items: center;
+    height: 100%;
+    margin: 0 0 80px 0;
+}
+
+.top_sales_banner {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 1px 3px 20px 0px rgba(0,0,0,0.2);
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_sales_banner:nth-child(1) {
+    margin-top: 0%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.top_sales_banner:nth-child(2) {
+    margin-top: 10%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.top_sales_banner:nth-child(3) {
+    margin-top: 20%;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.top_sales_banner:nth-child(3) img {
+  padding: 0 20px;
+}
+
+.top_sales_description {
+    color: #1C7885;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.top_sales_go_to_store {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  background-color: #ffffff;
+  color: #22B9A9;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0 20px;
+}
+
+.top_sales_go_to_store_arrow {
+  margin: 0 0 0 10px;
+  background-color: #22B9A9;
+  border-radius: 50%;
+  padding: 16px 18px;
+  box-sizing: content-box;
+}

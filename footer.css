@@ -1,0 +1,39 @@
+.footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer_nav {
+  display: grid;
+  grid-template-columns: 1fr 70px 1fr;
+}
+
+.footer_nav_left {
+  display: flex;
+  justify-content: left;
+}
+
+.footer_nav_right {
+  display: flex;
+  justify-content: right;
+}
+
+.footer_nav_icon {
+  margin: 0 70px 0 0;
+}
+
+.footer_nav_left_link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  text-decoration: none;
+  color: #4D4D4D;
+  margin-right: 70px;
+}
+
+.footer_logo {
+  width: 70px;
+  object-fit: contain;
+  margin: 0 0 20px 0;
+}

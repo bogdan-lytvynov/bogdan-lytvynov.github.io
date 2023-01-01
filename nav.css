@@ -1,0 +1,114 @@
+/*header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+*/
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: +1;
+}
+
+.container {
+    width: calc(100% - 160px);
+    margin: 0 auto;
+}
+
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    flex-grow: 0;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    color: rgba(71, 70, 70, 1);
+    font-size: 20px;
+    }
+
+.nav_link {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+.menu_link_btn {
+    font-size: 20;
+    font-style: 600;
+    color: #1AB1E0;
+}
+
+.nav-icons {
+    display: flex;
+    width: 213px;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+
+.nav.active a {
+    background-color: #fff;
+}
+
+.nav.active {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active .container {
+    padding: 10px;
+}
+
+.nav a.current, .nav a:hover {
+    color: rgb(7, 150, 150);
+    font-weight: SemiBold;
+}
+
+.menu ul li{
+    margin: 0 35px 0 35px;
+}
+
+.nav-icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+}
+
+.nav-icon.instagram {
+    background-image: url(pictures/insta-icon.svg);
+}
+
+.nav-icon.facebook {
+    background-image: url(pictures/fb-icon.svg);
+}
+
+.nav-icon.call {
+    background-image: url(pictures/call-icon.svg);
+}

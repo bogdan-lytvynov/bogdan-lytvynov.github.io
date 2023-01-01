@@ -1,0 +1,90 @@
+.nappy_pants {
+  background: url(pictures/nappy_pants_bg.svg) top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.nappy_pants_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 10% 0 10%;
+}
+
+.nappy_pants_titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.nappy_pants_main_titles {
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.nappy_pants_technology_title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #8C189D;
+}
+
+.nappy_pants_seal:first-child{
+  margin: 0 35px 0 0;
+}
+
+.nappy_pants_seal {
+}
+
+.nappy_pants_pros {
+  background-image: url(pictures/nappy_pants_main_img.png);
+  position: relative;
+  width: 800px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.nappy_pants_pros_list {
+  position: absolute;
+  left: calc(50% - 110px);
+  top: calc(50% - 80px);
+  width: 45%;
+  height: 45%;
+}
+
+
+.nappy_pants_pro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nappy_pants_pro_img {
+}
+
+.nappy_pants_pro_description {
+  width: 240px;
+  text-align: center;
+}
+
+.nappy_pants_dryness {
+  position: absolute;
+  left: 5%;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nappy_pants_dryness_title {
+  font-family: "Open Sans";
+  font-size: 25px;
+  text-align: center;
+  color: #8C169D;
+}

@@ -1,0 +1,85 @@
+.delivery-information {
+    display: grid;
+    grid-template-columns: 0% repeat(2, minmax(25%, 1fr)) 0%;
+    gap: 5%;
+    margin: 0 0 91px 0;
+}
+
+.delivery-information_section:nth-child(1) {
+    grid-column: 2;
+}
+
+.delivery-information_section:nth-child(2) {
+    grid-column: 3;
+}
+
+.delivery-information_section:nth-child(3) {
+    grid-column: 4;
+}
+
+.delivery-information_section {
+    display: flex;
+    margin-top: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.delivery-information_section-header {
+    color: #04666C;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-right: 50px;
+}
+
+.delivery-information_section-sideinfo {
+
+}
+
+.delivery-information_phone {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.delivery-information_info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+
+}
+
+.delivery-information_discont-header {
+    color: #0B726C;
+    display: flex;
+}
+
+.delivery-information_dicount {
+    color: #0B726C;
+ 
+}
+
+.delivery-information_dicount-range {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-transform: uppercase;
+
+}
+
+.delivery-information_dicount-percent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-transform: uppercase;
+
+}
+
+

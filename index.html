@@ -1,13 +1,324 @@
-<!doctype html>
-<html>
-  <head>
-    <title>
-      Wix Map iframe mock
-    </title>
-  </head>
-  <body>
-    <button id="room"> Select room </button>
-    <div id="root"><div>
-    <script src="brain.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="first_screen.css" />
+    <link rel="stylesheet" href="rotating-banner.css"/>
+    <link rel="stylesheet" href="second_screen.css" />
+    <link rel="stylesheet" href="third_screen.css" />
+    <link rel="stylesheet" href="fourth_screen.css" />
+    <link rel="stylesheet" href="feature.css" />
+    <link rel="stylesheet" href="top_sales.css" />
+    <link rel="stylesheet" href="nappy_pants.css" />
+    <link rel="stylesheet" href="review.css" />
+    <link rel="stylesheet" href="footer_icons.css" />
+    <link rel="stylesheet" href="delivery-information.css" />
+    <link rel="stylesheet" href="footer.css" />
+    
+    <title>DaDa</title>
+</head>
+<body>
+    <nav class="nav">
+    	<div class="container">
+            <img class="logo" src="pictures/dada_logo.png" alt="Logo"/>
+
+            <div class="menu">
+                <ul>
+                    <li><a class="nav_link" href="#">Підгузки</a></li>
+                    <li><a class="nav_link" href="#">Підгузки-Трусики</a></li>
+                    <li><a class="nav_link" href="#">Серветки</a></li>
+                    <li><a class="nav_link" href="#">Новинки</a></li>
+                    <li><a class="nav-icon instagram" href="#"></a></li>
+                    <li><a class="nav-icon facebook" href="#"></a></li>
+                    <li><a class="nav-icon call" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="slideshow-section">
+        <!-- Slideshow container -->
+        <div   div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="pictures/banners/banner1.jpg" style="width:100%">
+            <div class="text"><p>З любов’ю та турботою <br> про найдорожчих!</p></div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="pictures/banners/banner2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="pictures/banners/banner3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      
+        <!-- The dots/circles -->
+        <div class="slider-navigation">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <section class="second_screen">
+        <div class="grid">
+            <h1 class="second_screen_header">Чому Dada ?</h1>
+            <img src="pictures/second_screen_picture.png" alt="second_screen_picture" class="second_screen_picture">
+                
+            <p class="item-text brand-text"><b>Бренд DADA</b> це високоякісна продукція для дитячої гігієни з моменту народження малюка
+ 
+                <img src="pictures/svg1 (1).svg" alt="text1">
+            </p>
+            
+            <p class="item-text dypers-text"><b>Трусики-підгузки DADA</b> – найкращий захист для непосидючої малечі. Еластичний поясок та манжети адаптуються до анатомічної будови дитини, тому не перетискають животик. Трусики легко одягнути, а зняти ще легше – достатньо розірвати бокові шви.  
+                <img src="pictures/svg1 (1).svg" alt="text1">
+            </p>
+            
+            
+            <p class="item-text wipes-text"><b>Вологі серветки DADA</b> – ідеальні для ніжної шкіри малюка, адже не містять алкоголю, парабенів та інших агресивних компонентів. 
+                <img src="pictures/svg1 (1).svg" alt="text1">
+            </p>
+            
+            <p class="item-text pants-text"><b></b>Підгузки DADA</b> дарують малюку ідеальний захист, сухість та комфорт. Еластичні багаторазові застібки та бар’єри навколо ніжок забезпечують додатковий захист від протікань, а анатомічна форма та зменшена товщина підгузка створюють комфорт та сухість.
+                <img src="pictures/svg1 (1).svg" alt="text1">
+            </p>
+            
+        </div>
+        
+    </section>
+    
+    <section class="third_screen">
+        <div class="dieper split">
+            <div class="buy_diaper">
+                Вибрати  підгузки 
+                <div class="buy_vector1">
+                    <svg width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
+                    </svg>
+                </div>
+                
+            </div>   
+        </div>
+        
+        <div class="wipes split">
+            <div class="buy_wipes">
+                Вибрати  серветки 
+                <div class="buy_vector2">
+                    <svg width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+    <section class="top_sales">
+        <h1 class="top_sales_header"> Топ Продажів</h1>
+        <container class="top_sales_container">
+            <div class="top_sales_banner">
+                <div class="top_sales_description">Легкі, немов повітряна кулька</div>
+                <img class="top_sales_img" src="pictures/top_sale_banner_1.jpg"/>
+                <a href="#" class="top_sales_go_to_store">
+                  Перейти в магазин
+                  <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
+                  </svg>
+                </a>
+            </div>
+
+            <div class="top_sales_banner">
+                <div class="top_sales_description">М’які, наче хмаринка</div>
+                <img class="top_sales_img" src="pictures/top_sale_banner_2.jpg"/>
+                <a href="#" class="top_sales_go_to_store">
+                  Перейти в магазин
+                  <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
+                  </svg>
+                </a>
+            </div>
+
+            <div class="top_sales_banner">
+                <div class="top_sales_description">Ніжні та гіпоалергенні</div>
+                <img class="top_sales_img" src="pictures/top_sale_banner_3.jpg"/>
+                <a href="#" class="top_sales_go_to_store">
+                  Перейти в магазин
+                  <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
+                  </svg>
+                </a>
+            </div>
+        </container>
+    </section>
+    <section class="nappy_pants">
+      <div class="nappy_pants_header">
+        <div class="nappy_pants_titles">
+          <div class="nappy_pants_main_titles">Підкузки-трусики</div>
+          <div class="nappy_pants_technology_title">DADA Elite Care</div>
+        </div>
+
+        <div class="nappy_pants_seals">
+          <img class="nappy_pants_seal" src="pictures/nappy_pants_tested_sealing.png"/>
+          <img class="nappy_pants_seal" src="pictures/nappy_pants_guaranty_sealing.png"/>
+        </div>
+      </div>
+
+      <div class="nappy_pants_pros">
+        <ul class="nappy_pants_pros_list">
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/gentle_to_skin.png"/>
+            <div class="nappy_pants_pro_description">Екстра-ніжний внутрішній шар</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/comfortable.png"/>
+            <div class="nappy_pants_pro_description">Зручна 360 посадка</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/perfect_fit.png"/>
+            <div class="nappy_pants_pro_description">Анатомічна структура</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/unilization_stip.png"/>
+            <div class="nappy_pants_pro_description">Стрічка-утилізатор</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/belt.png"/>
+            <div class="nappy_pants_pro_description">Поясок, який легко розривається</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/soaking_cover.png"/>
+            <div class="nappy_pants_pro_description">Суперпоглинаючий шар</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/barrier.png"/>
+            <div class="nappy_pants_pro_description">Подвійні непротікаючі барєри</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/wet_indicator.png"/>
+            <div class="nappy_pants_pro_description">Індикатор вологи</div>
+          </li>
+
+          <li class="nappy_pants_pro">
+            <img class="nappy_pants_pro_img" src="pictures/nappy_pants_pros/breathing.png"/>
+            <div class="nappy_pants_pro_description">Дихаючий супермякий зовнішній шар</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nappy_pants_dryness" >
+        <img src="pictures/nappy_pants_dryness.png"/>
+        <div class="nappy_pants_dryness_title">До 12 годин сухості</div>
+      </div>
+      
+    </section>
+    <section class="reviews">
+        <ul class="reviews_list">
+            <li class="reviews_feedback">“ Користуємся не перший місяць. Брали розмір 3, 4, зараз маємо 5.По співвідношенню ціна-якість, одні з найкращих. В доньки не було висипань і попрілостей. Задоволені!! ”</li>
+            <li class="reviews_feedback">“ Отличные подгузы! Пользуемся с рождения. Не дорогие, мягкие, без запаха, хорошо впитывают (если вовремя менять конечно))), не надавливают, не протекают, не вызывают раздражений. Просто супер! “</li>
+            <li class="reviews_feedback">“ Постійно купуємо DADA і дуже задоволені!!! Подразнення не було жодного разу.Дехто жаліється ,що протікають,а я навіть не уявляю як підгузник може протекти). Так що справа не в підгузниках. “</li>
+            <li class="reviews_feedback">“ Вже пару раз купували ці серветки, дуже подобаються. Подразнення немає, гарно зволожені. Кількість серветок в упаковці теж радує. “</li>
+        </ul>
+    </section>
+    <section class="footer_icons">
+        <container class="footer_icons_container">
+          <div class="footer_icons_item">
+            <img src="pictures/footer_icons/plus.svg" class="footer_icons_img"/>
+            <div class="footer_icons_description">Високоякісні матеріали</div>
+          </div>
+
+          <div class="footer_icons_item">
+            <img src="pictures/footer_icons/smile.svg" class="footer_icons_img"/>
+            <div class="footer_icons_description">Турбота про малюка</div>
+          </div>
+
+          <div class="footer_icons_item">
+            <img src="pictures/footer_icons/pointer.svg" class="footer_icons_img"/>
+            <div class="footer_icons_description">Зручний сервіс</div>
+          </div>
+
+          <div class="footer_icons_item">
+            <img src="pictures/footer_icons/heart.svg" class="footer_icons_img"/>
+            <div class="footer_icons_description">Яскравий дизайн</div>
+          </div>
+        </container>
+    </section>
+    <div class="delivery-information">
+        <section class="delivery-information_section">
+            <h1 class="delivery-information_section-header">контакти</h1>
+            <div class="delivery-information_section-sideinfo">
+                <div class="delivery-information_phone">+38(0352)431-102</div>
+                <p class="delivery-information_info">
+                    Якщо у вас виникли запитання щодо товарів або потрібна допомога - заповніть форму, та наші менеджери із задоволенням нададуть вам консультацію
+                </p>
+            </div>
+        </section>
+
+        <section class="delivery-information_section">
+            <h1 class="delivery-information_section-header">доставка</h1>
+            <div class="delivery-information_section-sideinfo delivery-information_info">
+                Доставка замовлень здійснюється в усі регіони України за допомогою кур’єрських служб: Нова Пошта, УкрПошта. Розрахунок вартості здійснюється відповідно до актуальних тарифів компанії-перевізника, типу доставки та ваги замовлення.
+
+Термін доставки по Україні: 1-3 робочих дні. Терміни доставки вказуються з моменту передачі замовлення в кур’єрську службу. 
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+      <nav class="footer_nav">
+          <ul class="footer_nav_left">
+              <li><a class="footer_nav_left_link" href="#">Підгузки</a></li>
+              <li><a class="footer_nav_left_link" href="#">Підгузки-Трусики</a></li>
+              <li><a class="footer_nav_left_link" href="#">Серветки</a></li>
+              <li><a class="footer_nav_left_link" href="#">Новинки</a></li>
+          </ul>
+
+          <img class="footer_logo" src="pictures/dada_logo.png" alt="Logo"/>
+
+          <ul class="footer_nav_right">
+            <li>
+              <a class="footer_nav_icon" href="#">
+                <img src="pictures/facebook_grey.svg" />
+              </a>
+            </li>
+
+            <li>
+              <a class="footer_nav_icon" href="#">
+                <img src="pictures/insta_grey.svg" />
+              </a>
+            </li>
+
+            <li>
+              <a class="footer_nav_icon" href="#">
+                <img src="pictures/phone_grey.svg" />
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </footer>
+    
+    
+    <script src="script.js"></script>
 </html>

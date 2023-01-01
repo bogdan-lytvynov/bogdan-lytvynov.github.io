@@ -1,0 +1,47 @@
+/*.first_screen {
+    position: relative;
+    display: block;
+    background-image: url("pictures/Baner1\ copy.png");
+    background-size: cover;
+    height: 850px;
+    width: 100%;
+}
+
+.first_screen p {
+    font-size: 45px;
+    line-height: 1.5;
+    font-family: pacifico;
+    text-decoration: none;
+    text-align: center;
+    color: #17BAC5;
+    margin-bottom: 40px;
+}
+
+.first_screen_banner {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40%;
+    height: 45%;
+    background-image: url("pictures/BG_banner\ \(3\).png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first_screen_banner_btn {
+    background-image: linear-gradient(180deg, #32B7D2, #5CCECF);
+    color: #FFFFFF;
+    border-radius: 30px;
+    line-height: 1.5;
+    padding: 15px 80px;ß
+    font-size: 22px;
+    border: 0;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    

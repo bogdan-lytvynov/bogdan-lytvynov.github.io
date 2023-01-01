@@ -1,0 +1,28 @@
+.footer_icons {
+  background-color: #EBDEB7;
+  overflow: hidden;
+}
+
+.footer_icons_container {
+  width: 70%;
+  margin: 25px auto 35px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_icons_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_icons_img {
+  margin-bottom: 23px;
+}
+
+.footer_icons_description {
+  font-family: "Open Sense";
+  font-weight: 400;
+  font-size: 12px;
+  font-height: 16px;
+}
