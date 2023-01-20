@@ -23,6 +23,7 @@
 .footer_icons_description {
   font-family: "Open Sense";
   font-weight: 400;
-  font-size: 12px;
-  font-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #474747;
 }

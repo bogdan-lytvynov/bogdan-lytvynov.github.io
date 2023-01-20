@@ -1,0 +1,4 @@
+.main_screen {
+    height: calc(100vh - 82px);
+    margin: 82px 0 0 0;
+}

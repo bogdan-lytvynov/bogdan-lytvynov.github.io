@@ -22,6 +22,7 @@
   font-size: 36px;
   line-height: 48px;
   font-weight: 700;
+  color: #474747;
 }
 
 .nappy_pants_technology_title {
@@ -36,8 +37,7 @@
   margin: 0 35px 0 0;
 }
 
-.nappy_pants_seal {
-}
+
 
 .nappy_pants_pros {
   background-image: url(pictures/nappy_pants_main_img.png);
@@ -65,8 +65,7 @@
   align-items: center;
 }
 
-.nappy_pants_pro_img {
-}
+
 
 .nappy_pants_pro_description {
   width: 240px;

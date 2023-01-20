@@ -2,7 +2,7 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 setInterval(() => {
-  plusSlides(1)
+  // plusSlides(1)
 }, 7000)
 
 // Next/previous controls

@@ -1,11 +1,12 @@
 .footer {
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .footer_nav {
   display: grid;
   grid-template-columns: 1fr 70px 1fr;
+  align-items: center;
 }
 
 .footer_nav_left {
@@ -23,8 +24,8 @@
 }
 
 .footer_nav_left_link {
-  font-family: Roboto;
-  font-size: 14px;
+  font-family: OpenSans;
+  font-size: 16px;
   font-weight: 300;
   line-height: 16px;
   text-decoration: none;

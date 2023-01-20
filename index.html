@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    
     <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="main_screen.css" />
     <link rel="stylesheet" href="first_screen.css" />
     <link rel="stylesheet" href="rotating-banner.css"/>
     <link rel="stylesheet" href="second_screen.css" />
@@ -19,48 +23,62 @@
     <link rel="stylesheet" href="footer_icons.css" />
     <link rel="stylesheet" href="delivery-information.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="washing.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     
     <title>DaDa</title>
 </head>
 <body>
     <nav class="nav">
     	<div class="container">
-            <img class="logo" src="pictures/dada_logo.png" alt="Logo"/>
+          <a href="#home" ><img class="logo" src="pictures/dada_logo.png" alt="Logo"/></a> 
 
             <div class="menu">
                 <ul>
-                    <li><a class="nav_link" href="#">Підгузки</a></li>
-                    <li><a class="nav_link" href="#">Підгузки-Трусики</a></li>
-                    <li><a class="nav_link" href="#">Серветки</a></li>
-                    <li><a class="nav_link" href="#">Новинки</a></li>
-                    <li><a class="nav-icon instagram" href="#"></a></li>
-                    <li><a class="nav-icon facebook" href="#"></a></li>
-                    <li><a class="nav-icon call" href="#"></a></li>
+                    <li><a class="nav_link" href="#nappies">Підгузки</a></li>
+                    <li><a class="nav_link" href="#nappy-pantsid">Підгузки-Трусики</a></li>
+                    <li><a class="nav_link" href="#sales">Серветки</a></li>
+                    <li><a class="nav_link" href="#wash">Засоби для прання</a></li>
+                    <li><a class="nav-icon instagram" href="https://www.instagram.com/p/CVQl0GrMOLE/?utm_medium=copy_link"></a></li>
+                    <li><a class="nav-icon facebook" href="https://www.facebook.com/kupavashop"></a></li>
+                    <li><a class="nav-icon call" href="tel:123-456-7890"></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="slideshow-section">
+    <div class="main_screen">
+
+    <section class="slideshow-section" id="home">
         <!-- Slideshow container -->
-        <div   div class="slideshow-container">
+        <div class="slideshow-container">
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="pictures/banners/banner1.jpg" style="width:100%">
-            <div class="text"><p>З любов’ю та турботою <br> про найдорожчих!</p></div>
+              <a class="slideshow-container_slidelink" href="https://kupava.shop/category/pidgyzniki">
+                <div class="banner1_bg">
+                  <div class="banner1_bg_cloud">
+                    <p class="banner1_text">З любов’ю та турботою про найдорожчих!</p>
+                    <div class="banner1_btn" href="https://kupava.shop/category/pidgyzniki">Купити</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+            <div class="mySlides fade">
+              <a class="slideshow-container_slidelink2" href="https://kupava.shop/category/dytiachi-pidhuzky-trusyky">
+                <div class="banner2_bg">
+                  <div class="banner2_content">
+                    <p class="banner2_text">Найкращі миті
+                      разом з </p>
+                    <img class="banner2_logo" src="pictures/banners/Dada_logo_banner.png" alt="Dada">
+                  <div class="banner2_btn" href="https://kupava.shop/category/dytiachi-pidhuzky-trusyky">Перейти</div>
+                </div>
+              </a>
+              </div>
             </div>
         
             <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="pictures/banners/banner2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-            </div>
-        
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
             <img src="pictures/banners/banner3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
             </div>
         
             <!-- Next and previous buttons -->
@@ -76,7 +94,7 @@
         </div>
     </section>
 
-    <section class="second_screen">
+    <section class="second_screen" id="nappies">
         <div class="grid">
             <h1 class="second_screen_header">Чому Dada ?</h1>
             <img src="pictures/second_screen_picture.png" alt="second_screen_picture" class="second_screen_picture">
@@ -129,13 +147,13 @@
     </section>
         
     
-    <section class="top_sales">
+    <section class="top_sales" id="sales">
         <h1 class="top_sales_header"> Топ Продажів</h1>
         <container class="top_sales_container">
             <div class="top_sales_banner">
                 <div class="top_sales_description">Легкі, немов повітряна кулька</div>
                 <img class="top_sales_img" src="pictures/top_sale_banner_1.jpg"/>
-                <a href="#" class="top_sales_go_to_store">
+                <a href="https://kupava.shop/category/pidgyzniki" class="top_sales_go_to_store">
                   Перейти в магазин
                   <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
@@ -146,7 +164,7 @@
             <div class="top_sales_banner">
                 <div class="top_sales_description">М’які, наче хмаринка</div>
                 <img class="top_sales_img" src="pictures/top_sale_banner_2.jpg"/>
-                <a href="#" class="top_sales_go_to_store">
+                <a href="https://kupava.shop/category/dytiachi-pidhuzky-trusyky" class="top_sales_go_to_store">
                   Перейти в магазин
                   <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
@@ -157,7 +175,7 @@
             <div class="top_sales_banner">
                 <div class="top_sales_description">Ніжні та гіпоалергенні</div>
                 <img class="top_sales_img" src="pictures/top_sale_banner_3.jpg"/>
-                <a href="#" class="top_sales_go_to_store">
+                <a href="https://kupava.shop/category/dytyachi-vologi-servetky" class="top_sales_go_to_store">
                   Перейти в магазин
                   <svg class="top_sales_go_to_store_arrow" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1L13 9.33333L1 18" stroke="#474646" stroke-width="2"/>
@@ -166,7 +184,7 @@
             </div>
         </container>
     </section>
-    <section class="nappy_pants">
+    <section class="nappy_pants" id="nappy-pantsid">
       <div class="nappy_pants_header">
         <div class="nappy_pants_titles">
           <div class="nappy_pants_main_titles">Підкузки-трусики</div>
@@ -265,8 +283,45 @@
           </div>
         </container>
     </section>
+    
+    <section class="washing_screen" id="wash">
+      <div class="washing">
+        <img class="washing_baby_pict" src="pictures/washing.png"/>
+
+        <div class="washing_content">
+          <h1 class="washing_header"> Засоби для прання дитячих речей</h1>
+
+          <div class="washing_product_thumbnails">
+            <div class="washing_product_thumbnail">
+              <img src="pictures/Detergent_large_pict.png"/>
+            </div>
+            <div class="washing_product_thumbnail">
+              <img src="pictures/washing_gel_pict.png" />
+            </div>
+            <div class="washing_product_thumbnail">
+              <img src="pictures/detergent_small_pict.png" />
+            </div>
+          </div>
+
+          <a class="wash_btn" href="#">До магазину</a>
+  
+
+          <p class="wash_description_text">
+            <b>Для всієї сім’ї:</b> для дітей та дорослих, схильних до алергічних реакцій <br/>
+            <b>Без запаху:</b> не містить різких ароматизаторів, що особливо важливо для немовлят<br/>
+            <b>Делікатна формула:</b> без фосфатів, фосфонатів, без хлору та алергенів<br/>
+            <b>Легко виполіскується:</b> формула засобів містить піногасник, тому одяг швидко і легко виполіскується<br/>
+            <b>Екстракт евкаліпту</b> – це природній антисептик, який знищує шкідливі бактерії<br/>
+            <b>Універсальний:</b> для білого та кольорового
+          </p>  
+        </div>
+        </div>
+    </section>
+
+    
+    
     <div class="delivery-information">
-        <section class="delivery-information_section">
+        <section class="delivery-information_section" id="contacts">
             <h1 class="delivery-information_section-header">контакти</h1>
             <div class="delivery-information_section-sideinfo">
                 <div class="delivery-information_phone">+38(0352)431-102</div>
@@ -277,48 +332,48 @@
         </section>
 
         <section class="delivery-information_section">
-            <h1 class="delivery-information_section-header">доставка</h1>
-            <div class="delivery-information_section-sideinfo delivery-information_info">
-                Доставка замовлень здійснюється в усі регіони України за допомогою кур’єрських служб: Нова Пошта, УкрПошта. Розрахунок вартості здійснюється відповідно до актуальних тарифів компанії-перевізника, типу доставки та ваги замовлення.
+          <h1 class="delivery-information_section-header">доставка</h1>
+          <div class="delivery-information_section-sideinfo delivery-information_info">
+              Доставка замовлень здійснюється в усі регіони України за допомогою кур’єрських служб: Нова Пошта, УкрПошта. Розрахунок вартості здійснюється відповідно до актуальних тарифів компанії-перевізника, типу доставки та ваги замовлення.
 
 Термін доставки по Україні: 1-3 робочих дні. Терміни доставки вказуються з моменту передачі замовлення в кур’єрську службу. 
-            </div>
-        </section>
+          </div>
+      </section>
     </div>
 
     <footer class="footer">
       <nav class="footer_nav">
           <ul class="footer_nav_left">
-              <li><a class="footer_nav_left_link" href="#">Підгузки</a></li>
-              <li><a class="footer_nav_left_link" href="#">Підгузки-Трусики</a></li>
-              <li><a class="footer_nav_left_link" href="#">Серветки</a></li>
-              <li><a class="footer_nav_left_link" href="#">Новинки</a></li>
+              <li><a class="footer_nav_left_link" href="https://kupava.shop/category/pidgyzniki">Підгузки</a></li>
+              <li><a class="footer_nav_left_link" href="https://kupava.shop/category/dytiachi-pidhuzky-trusyky">Підгузки-Трусики</a></li>
+              <li><a class="footer_nav_left_link" href="https://kupava.shop/category/dytyachi-vologi-servetky">Серветки</a></li>
+              <li><a class="footer_nav_left_link" href="#washing_screen">Новинки</a></li>
           </ul>
 
           <img class="footer_logo" src="pictures/dada_logo.png" alt="Logo"/>
 
           <ul class="footer_nav_right">
             <li>
-              <a class="footer_nav_icon" href="#">
+              <a class="footer_nav_icon" href="https://www.facebook.com/kupavashop">
                 <img src="pictures/facebook_grey.svg" />
               </a>
             </li>
 
             <li>
-              <a class="footer_nav_icon" href="#">
+              <a class="footer_nav_icon" href="https://www.instagram.com/p/CVQl0GrMOLE/?utm_medium=copy_link">
                 <img src="pictures/insta_grey.svg" />
               </a>
             </li>
 
             <li>
-              <a class="footer_nav_icon" href="#">
+              <a class="footer_nav_icon" href="tel:123-456-7890">
                 <img src="pictures/phone_grey.svg" />
               </a>
             </li>
           </ul>
       </nav>
     </footer>
-    
+  </div>
     
     <script src="script.js"></script>
 </html>
