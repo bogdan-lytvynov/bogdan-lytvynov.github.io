@@ -18,6 +18,7 @@
     right: 0;
     z-index: +1;
     height: 82px;
+    box-shadow: 0px 1px 3px #1ac2e0;
 }
 
 .container {
@@ -50,7 +51,7 @@
     align-items: center;
     justify-content: center;
     color: rgb(59, 59, 59);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     text-transform: uppercase;
     }
@@ -58,7 +59,7 @@
 .nav_link {
     color: rgb(34, 34, 34);
     text-decoration: none;
-    padding: 7px 15px;
+    padding: 0px 0px;
 }
 
 .menu_link_btn {
